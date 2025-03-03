@@ -5,7 +5,7 @@ public class Employee {
       private String firstName;
       private String lastName;
       private static int currentId = 1;
-      private int id;
+      private final int id;
       private double salary;
       
 
@@ -80,8 +80,15 @@ public class Employee {
       {
             this.firstName = firstname;
             this.lastName = lastname;
+            this.salary = 1000;
             this.id = currentId;
             currentId++;
+      }
+
+      @SuppressWarnings("override")
+      public String toString()
+      {
+            return "[" + id + "]" + " " + getName() + ": " + getSalary();
       }
 
       
