@@ -88,7 +88,7 @@ public class Employee {
       @SuppressWarnings("override")
       public String toString()
       {
-            return "[" + id + "]" + " " + getName() + ": " + getSalary();
+            return String.format("[%d] %s: %.2f", this.id, getName(), this.salary);
       }
 
       

@@ -10,6 +10,7 @@ This programm is here to write down employee names, salayries and give them auto
 
 - getter and setter methods to change the values and to read/print them.
 - a toString Method, that returns all information about the employe at once.
+- A Method to save salaries over years
 
 ## Commits
 
@@ -20,3 +21,5 @@ This programm is here to write down employee names, salayries and give them auto
 3. setandconst, settermethods and 2 constructors with an id that increase each time a new object is created 
 
 4. extension1, 1 extension of the exercise: toString Method added (Described above)
+
+5. Finalcommit, 2 extension and last, saves salaries and can calcute with them your current salary with years and increase per year etc.
