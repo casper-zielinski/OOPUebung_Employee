@@ -14,9 +14,9 @@ This programm is here to write down employee names, salayries and give them auto
 
 ## Features
 
- [X] getter and setter methods to change the values and to read/print them.
- [X] a toString Method, that returns all information about the employe at once.
- [X] A Method to save salaries over the years
+ - [X] getter and setter methods to change the values and to read/print them.
+ - [X] a toString Method, that returns all information about the employe at once.
+ - [X] A Method to save salaries over the years
 
 ## Commits
 
